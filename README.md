@@ -2,6 +2,19 @@
 
 Este repositório contém o desenvolvimento end-to-end de um modelo preditivo de risco de crédito, originalmente desenvolvido como resolução de um case técnico para a posição de Cientista de Dados na Datarisk. 
 
+## 📂 Estrutura do Repositório
+
+O repositório está organizado da seguinte forma:
+
+```text
+data-science-case-credit-risk-B2B/
+│
+├── README.md                   # Documentação principal do projeto e apresentação
+├── case_datarisk.ipynb         # Notebook com o código-fonte, EDA, modelagem e validação
+├── relatorio_executivo.pdf     # Relatório de negócios com os insights, estratégia e ROI
+└── requirements.txt            # Arquivo gerado via 'uv' com as versões exatas das dependências
+```
+
 O objetivo do projeto é transformar a esteira de cobrança de uma abordagem **reativa** (cobrar após o atraso) para uma estratégia **proativa** (agir preventivamente sobre clientes com alta probabilidade de atraso).
 
 ## O Problema de Negócio
