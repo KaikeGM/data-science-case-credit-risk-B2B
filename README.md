@@ -45,7 +45,7 @@ Como próximos passos para um ciclo de vida de produção (MLOps), o relatório 
 O projeto foi empacotado garantindo total reprodutibilidade. O gerenciamento de pacotes foi feito utilizando o `uv`.
 
 **Pré-requisitos:**
-*   Python `3.12.13`
+*   Python `3.12`
 *   Arquivos CSV originais no diretório raiz.
 
 **Passo a passo:**
@@ -55,7 +55,7 @@ git clone [https://github.com/SeuUsuario/data-science-case-credit-risk-B2B.git](
 cd data-science-case-credit-risk-B2B
 
 # 2. Crie e ative o ambiente virtual (Recomendado o uso do uv)
-uv venv --python 3.12.13
+uv venv --python 3.12
 source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 
 # 3. Instale as dependências congeladas
