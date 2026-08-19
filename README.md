@@ -10,6 +10,7 @@ O repositório está organizado da seguinte forma:
 data-science-case-credit-risk-B2B/
 │
 ├── README.md                   # Documentação principal do projeto e apresentação
+├── data                        # Dados usados no projeto
 ├── case_datarisk.ipynb         # Notebook com o código-fonte, EDA, modelagem e validação
 ├── relatorio_executivo.pdf     # Relatório de negócios com os insights, estratégia e ROI
 └── requirements.txt            # Arquivo gerado via 'uv' com as versões exatas das dependências
